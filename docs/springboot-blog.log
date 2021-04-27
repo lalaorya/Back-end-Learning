@@ -1,0 +1,72 @@
+2021-04-13 23:08:19.704  INFO 24772 --- [main] c.h.blogbackend.BlogBackendApplication   : Starting BlogBackendApplication v0.0.1-SNAPSHOT using Java 1.8.0_241 on DESKTOP-9FR1FRS with PID 24772 (C:\Documents\blog\blog-backend\target\blog-backend-0.0.1-SNAPSHOT.jar started by sang_Mu in C:\Users\sang_Mu\Desktop\web后端笔记)
+2021-04-13 23:08:19.708  INFO 24772 --- [main] c.h.blogbackend.BlogBackendApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 23:08:21.990  INFO 24772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:08:22.001  INFO 24772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:08:22.060  INFO 24772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2021-04-13 23:08:22.476  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jwtUtils' of type [com.hhj.blogbackend.utils.JwtUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.477  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jwtFilter' of type [com.hhj.blogbackend.shiro.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.477  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.hhj.blogbackend.config.ShiroConfig$$EnhancerBySpringCGLIB$$371018d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.704  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.709  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatiplusConfig' of type [com.hhj.blogbackend.config.MybatiplusConfig$$EnhancerBySpringCGLIB$$f5affde0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.730  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisPlusInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.738  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2f642a7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.741  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$b47b352] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.744  INFO 24772 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-04-13 23:08:22.921  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.923  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.966  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wallConfig' of type [com.alibaba.druid.wall.WallConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:22.999  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wallFilter' of type [com.alibaba.druid.wall.WallFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:23.186  INFO 24772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-04-13 23:08:23.186  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.032  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.040  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.041  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.044  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.045  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.hhj.blogbackend.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.046  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.hhj.blogbackend.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.052  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiro-redis.redis-manager-org.crazycake.shiro.RedisManagerProperties' of type [org.crazycake.shiro.RedisManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.057  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiro-redis.cache-manager-org.crazycake.shiro.CacheManagerProperties' of type [org.crazycake.shiro.CacheManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.062  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiro-redis.session-dao-org.crazycake.shiro.RedisSessionDAOProperties' of type [org.crazycake.shiro.RedisSessionDAOProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.064  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.crazycake.shiro.ShiroRedisAutoConfiguration' of type [org.crazycake.shiro.ShiroRedisAutoConfiguration$$EnhancerBySpringCGLIB$$16f03f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.083  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.100  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.113  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.session.mgt.DefaultSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.117  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.955  WARN 24772 --- [main] o.a.s.web.mgt.DefaultWebSecurityManager  : The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+2021-04-13 23:08:24.957  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:24.960  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:25.051  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:25.341  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$25515e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:25.346  INFO 24772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-13 23:08:25.802  INFO 24772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-04-13 23:08:25.819  INFO 24772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 23:08:25.820  INFO 24772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-13 23:08:25.929  INFO 24772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 23:08:25.929  INFO 24772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6124 ms
+2021-04-13 23:08:26.202  WARN 24772 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.hhj.blogbackend.pojo.Article"
+2021-04-13 23:08:27.884  INFO 24772 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-13 23:08:28.331  INFO 24772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:08:28.901  INFO 24772 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-13 23:08:28.980  WARN 24772 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8089 is already in use
+2021-04-13 23:08:28.981  INFO 24772 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-04-13 23:08:28.982  INFO 24772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:08:29.011  INFO 24772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-04-13 23:08:29.012  INFO 24772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-04-13 23:08:29.017  INFO 24772 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-13 23:08:29.032  INFO 24772 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 23:08:29.060 ERROR 24772 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8089 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8089 or configure this application to listen on another port.
+
