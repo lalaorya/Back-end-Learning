@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>login界面</title>
+
+  <style>
+      .loginitem{
+          display: flex;
+          justify-content: space-between;
+          width: 240px;
+          padding:0 0 5px 0;
+      }
+      .checkcode1{
+          display: flex;
+      }
+
+  </style>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+    <script>
+        $(document).ready(function (){
+            $("#checkCode").click(function (){
+                this.src="/web_learning/checkCodeServlet?"+new Date().getTime();
+            })
+
+            // 加个json的案例
+            $("#username").blur(function (){
+                // 发送异步请求
+                $.get("jsonServlet",{"username":$("#username").val()},function (data){
+                    if(data.userExist){
+                        //用户名存在
+                        alert("yes");
+                    }else{
+                        alert("no");
+                    }
+                },"json")
+
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <form action="/web_learning/loginServlet2" method="POST">
+        <div class="loginitem">
+            <span>用户名:</span>
+            <input type="text" id="username" placeholder="请输入用户名">
+        </div>
+
+        <div class="loginitem">
+            <span>密码:</span>
+            <input type="text" name="password" placeholder="请输入密码">
+        </div>
+
+        <div class="loginitem">
+            <span>验证码:</span>
+            <input type="text" name="checkcode" >
+        </div>
+
+        <img id="checkCode" src="/web_learning/checkCodeServlet"><br>
+        <input type="submit" name="submit">
+
+
+    </form>
+
+</body>
+</html>
+

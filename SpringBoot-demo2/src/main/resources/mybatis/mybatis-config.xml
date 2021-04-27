@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    <environments default="development">-->
+<!--        <environment id="development">-->
+<!--            <transactionManager type="JDBC"/>-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${driver}"/>-->
+<!--                <property name="url" value="${url}"/>-->
+<!--                <property name="username" value="${username}"/>-->
+<!--                <property name="password" value="${password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+<!--    <mappers>-->
+<!--        <mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+<!--    </mappers>-->
+<!--    不需要导入数据库连接池，也不需要注册mapper文件。-->
+<!--    springboot会自动使用容器中的数据库连接池，至于mapper文件的位置，也和@mapper注解进行了绑定·-->
+
+    <typeAliases>
+        <!--        也可以为整个domain包按默认方式起别名-->
+        <package name="com.hhj.domain"/>
+    </typeAliases>
+</configuration>

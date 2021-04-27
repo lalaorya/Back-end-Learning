@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原生js实现ajax</title>
+</head>
+
+<body>
+<input id="button1" type="button" value="异步ajax">
+
+
+<script>
+    document.getElementById("button1").onclick = function () {
+        alert("hehe")
+
+        var xmlhttp;
+        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {// code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        // 发送请求
+        xmlhttp.open("GET", "ajaxServlet?username='zhangsan'", true);
+        xmlhttp.send();
+
+        //接收响应
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var responseText = xmlhttp.responseText;
+                alert(responseText)
+                this.value=responseText;
+            }
+        }
+
+
+    }
+</script>
+</body>
+
+</html>
+
+<!-- ajax是一种异步获取服务器数据的方式，它的基础是XMLHttpRequest对象，基本所有的
+浏览器都支持该对象，用于在后台与服务器交换数据而不用重新加
+载整个页面 -->

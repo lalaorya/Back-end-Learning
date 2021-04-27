@@ -1,0 +1,65 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+      #    static-path-pattern: /res/**
+    # 访问静态资源的前缀必须是这个，即使resources下没有这个目录
+    # 但是如何配置了这个，欢迎页面和logo图无法正常显示，和源码有关，被写死
+  web:
+    resources:
+#      static-locations: [classpath:/public2]
+      # 配置这个的话静态资源就必须放在这个目录下，原先的默认目录就不能用了，被替代了
+      # 这是一个数组，可以重新配置多个静态资源目录
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sbtest
+    username: root
+    password: 123abc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    # 配置druid
+    druid:
+      filters: stat,wall  # 配置底层功能，sql监控和防火墙
+      aop-patterns: com.hhj.controller.* # 监控springbean
+
+      # 详细配置stat
+      filter:
+        stat:
+          slow-sql-millis: 1000
+        wall:
+          config:
+            drop-table-allow: false # 拦截所有删表方法
+
+      #配置监控页面
+      stat-view-servlet:
+        enabled: true   # 开启监控页
+        login-username: admin
+        login-password: admin
+
+      # 配置监控web
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+
+# 配置mybatis
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*
+
+mybatis-plus:
+
+blog:
+  jwt:
+    # 加密秘钥
+    secret: zrf5202e34348f86b67cde581c0f9eb5
+    # token有效时长，7天，单位秒
+    expire: 604800
+    header: token
+
+
+
+
+

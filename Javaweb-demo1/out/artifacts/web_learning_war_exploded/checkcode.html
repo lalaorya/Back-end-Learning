@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script>
+        $(window).ready(function (){
+            $("#checkcode").click(function (){
+                var date = new Date().getTime();
+
+                this.src="/web_learning/responseDemo5?"+date;
+            })
+        })
+
+
+    </script>
+
+</head>
+<body>
+
+    <img id="checkcode" src="/web_learning/responseDemo5" />
+
+</body>
+</html>

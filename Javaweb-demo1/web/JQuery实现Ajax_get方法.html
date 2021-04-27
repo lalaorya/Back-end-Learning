@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                // get方式的语法
+                // $(selector).get(url,data,success(response,status,xhr),dataType)
+                $.get("ajaxServlet",{username:"zhangsan",age:22},function(){
+                    alert("get方式搞定")
+                },"text")
+                //post方式就是把get换成post，十分简单。它的请求参数也放在请求体里面，不会跟在url后面
+            })
+
+        })
+    </script>
+
+    <title>jq实现ajax</title>
+</head>
+
+<body>
+<input id="button1" type="button" value="异步ajax">
+
+</body>
+
+</html>
+
+<!-- ajax是一种异步获取服务器数据的方式，它的基础是XMLHttpRequest对象，基本所有的
+浏览器都支持该对象，用于在后台与服务器交换数据而不用重新加
+载整个页面 -->
