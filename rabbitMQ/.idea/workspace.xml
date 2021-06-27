@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fef5b305-6186-4b6a-a4d9-efa5518fdec6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sVazQ66aQCBh73BITOPf0e9CHG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhj.topics" />
+      <recent name="com.hhj.routing" />
+      <recent name="com.hhj.workqueue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Producer (1)">
+    <configuration name="Comsumer1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.topics.Comsumer1" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.topics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.topics.Consumer2" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.topics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.routing.Consumer2" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.routing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.topics.Producer" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.topics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.routing.Producer" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.routing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Producer (1)" />
+        <item itemvalue="Application.Comsumer1 (1)" />
+        <item itemvalue="Application.Consumer2 (2)" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fef5b305-6186-4b6a-a4d9-efa5518fdec6" name="Default Changelist" comment="" />
+      <created>1620960475141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620960475141</updated>
+      <workItem from="1620960476207" duration="17351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="819" y="175" key="FileChooserDialogImpl" timestamp="1620960972599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="819" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1620960972599" />
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom" timestamp="1621246717203">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621246717203" />
+    <state width="1493" height="298" key="GridCell.Tab.0.center" timestamp="1621246717202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621246717202" />
+    <state width="1493" height="298" key="GridCell.Tab.0.left" timestamp="1621246717202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621246717202" />
+    <state width="1493" height="298" key="GridCell.Tab.0.right" timestamp="1621246717202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621246717202" />
+    <state x="540" y="65" key="SettingsEditor" timestamp="1620960975068">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="65" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1620960975068" />
+  </component>
+</project>
