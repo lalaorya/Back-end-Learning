@@ -121,7 +121,7 @@ public void execute(Runnable command) {
 }
 ```
 
-这个对线程调度的源码没有深入分析，如addWord函数，拒绝策略是怎么实现的等。以后会再专门写一篇文章，可以参考《并发编程之美》的源码分析。
+这个对线程调度的源码没有深入分析，如addWork函数，拒绝策略是怎么实现的等。以后会再专门写一篇文章，可以参考《并发编程之美》的源码分析。
 
 ## 执行execute方法和submit方法有何区别？
 
@@ -138,7 +138,7 @@ public void execute(Runnable command) {
 
 - [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
 
-  > 还没仔细研究，粗略看了下，怎么很不错，值得参考
+  > 还没仔细研究，不过美团出品必属精品，值得参考
 
   
 

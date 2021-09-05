@@ -14,10 +14,6 @@ AQS（AbstractQueuedSynchronizer），即抽象同步队列。JUC中常用锁、
 
 ## 以ReentrantLock为例分析AQS的源码
 
-
-
-
-
 很难写，太费时间了 说一下具体思路和我对AQS的总结以及面试常问的把。详细的源码分析以后再写。
 
 > 总结:
