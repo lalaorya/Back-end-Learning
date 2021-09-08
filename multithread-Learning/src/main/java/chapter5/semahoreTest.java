@@ -15,6 +15,7 @@ class ShareData{
     public void work(){
         try {
             semaphore.acquire();
+
             System.out.println(Thread.currentThread().getName()+"正在执行，还剩"+semaphore.availablePermits()+"个资源,"+
                     semaphore.getQueueLength()+"个线程在等待");
             semaphore.release();

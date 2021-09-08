@@ -1,6 +1,8 @@
 package chapter3;
 
 
+import java.util.concurrent.locks.LockSupport;
+
 /**
  * 生产者消费之模型的synchronized实现
  * +a -a +a -a
@@ -49,6 +51,7 @@ public class Test1 {
         new Thread(() -> {
             for (int i = 0; i < 5; i++) {
                 try {
+
                     shareData.inc();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
