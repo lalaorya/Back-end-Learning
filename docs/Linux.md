@@ -1,5 +1,0 @@
-- top    整机性能
-- uptime   top的精简版
-- vmstat -n 2 3   CPU占用 阻塞和运行
-- pidstat  进程号的详细情况
-- 
