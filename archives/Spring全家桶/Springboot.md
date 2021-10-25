@@ -361,7 +361,7 @@
 
 - 可以用在类上，表示当前类的所有@Bean注解下的方法都有此条件
 
-- 也可以用在@Bean方法上，仅表示但钱方法有限制
+- 也可以用在@Bean方法上，仅表示当前方法有限制
 
   ```java
   @Bean
@@ -624,7 +624,7 @@ spring-boot-devtools 是一个为开发者服务的一个模块，其中最重�
 
 #### ② Springboot与Rest风格
 
-​	Rest风格我们都知道，url改变了，并且可以根据不同的请求方式(POST GET PUSH DELETE) 执行不同的控制器。
+​	Rest风格我们都知道，url不变，可以根据不同的请求方式(POST GET PUSH DELETE) 执行不同的控制器。
 
 - 以前：/getUser 获取用户  */deleteUser* 删除用户   */editUser*  *修改用户*    */saveUser* *保存用户*
 
@@ -792,9 +792,8 @@ public Map postMethod(@RequestBody String content){
   ```java
   map<String,String>
   Model model
-HttpRequest req
+  HttpRequest req
   ```
-  
 
 #### ④ thymeleaf模板引擎
 
@@ -967,7 +966,7 @@ springboot会自动识别当前类目录下的/template/error文件夹，出错�
   如何切换服务器？更改默认导入的包即可
 
   ```xml
-<dependency>
+  <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
     <exclusions>
@@ -976,7 +975,7 @@ springboot会自动识别当前类目录下的/template/error文件夹，出错�
             <artifactId>spring-boot-starter-tomcat</artifactId>
         </exclusion>
     </exclusions>
-</dependency>
+  </dependency>
   ```
 
 导入其他服务器的starter依赖

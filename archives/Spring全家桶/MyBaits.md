@@ -270,7 +270,7 @@
   ```XML
     <!--        数据库厂商标识,起别名-->
       <databaseIdProvider type="DB_VENDOR">
-<!--        给不同的数据库起别名，指定数据库时使用别名-->
+  <!--        给不同的数据库起别名，指定数据库时使用别名-->
           <property name="SQL Server" value="sqlserver"/>
           <property name="MySQL" value="mysql"/>
           <property name="Oracle" value="oracle"/>
@@ -374,7 +374,7 @@
   当方法要求输入多个参数时(之前写的都是一个参数的），如：
 
   ```java
-//    多个参数的方法
+  //    多个参数的方法
       public User getUserByUsernameAndPassword(String username,String password);
   ```
   在select、insert等标签写sql的时候怎么添加参数呢？原来只有一个参数时，参数名可以随便写，因为肯定是对应他。
