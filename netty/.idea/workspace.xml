@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54d85173-6af4-41e4-bf6d-a60a6a1798e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_01_jdksocket/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_02_echoServer/EchoServerHandler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20xUdmxCEnoa6rgZWn5zFiqAX0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.4481132" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager" selected="JUnit.Demo.server">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_jdksocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_01_jdksocket" />
+      <option name="MAIN_CLASS_NAME" value="_01_jdksocket.Demo" />
+      <option name="METHOD_NAME" value="client" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.processRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_jdksocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_01_jdksocket" />
+      <option name="MAIN_CLASS_NAME" value="_01_jdksocket.Demo" />
+      <option name="METHOD_NAME" value="processRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_jdksocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_01_jdksocket" />
+      <option name="MAIN_CLASS_NAME" value="_01_jdksocket.Demo" />
+      <option name="METHOD_NAME" value="server" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo.client" />
+        <item itemvalue="JUnit.Demo.server" />
+        <item itemvalue="JUnit.Demo.processRequest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54d85173-6af4-41e4-bf6d-a60a6a1798e4" name="Default Changelist" comment="" />
+      <created>1636985824346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636985824346</updated>
+      <workItem from="1636985826333" duration="3813000" />
+      <workItem from="1637026200868" duration="4237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
