@@ -1,0 +1,7 @@
+- 第四天
+  - webflux的概念
+  - git pull的使用
+    - 从远端分支拉去项目到本地分支，可以选择merge合并获取rebase，rabase可以选择base your 或者 base their，但是这些都不会影响远端分支，只是你自己的分支
+  - git merge 和 git rabase的区别
+  - service层一般不处理异常,throw抛出异常即可，controller层处理异常，因为这样可以设置返回码
+  - 返回的vo如果有分页信息的话，一般会继承一个自定义的Page/Pager对象 或者 Mybatis等第三方依赖提供的Page对象，
