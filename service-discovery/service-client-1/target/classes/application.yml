@@ -1,0 +1,29 @@
+server:
+  port: 12201
+  tomcat:
+    uri-encoding: UTF-8
+
+###-----------------------zookeeper相关配置--------------------------###
+#spring:
+#  cloud:
+#    zookeeper:
+#      connect-string: 127.0.0.1:2181
+#  application:
+#    name: serviceclient1
+
+
+
+###-----------------------euraka相关配置--------------------------###
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12120/eureka
+    # 表示eureka client间隔多久去拉取服务注册信息，默认为30秒，
+    registry-fetch-interval-seconds: 1
+spring:
+  application:
+    name: serviceclient1
+
+
+
+

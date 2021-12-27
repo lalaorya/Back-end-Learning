@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6af5e511-46af-40f6-bbb6-5feaa6033d03" name="Default Changelist" comment="初始化微服务-服务发现项目">
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/cn/com/pcauto/bifrost/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client-1/src/main/java/com/hhj/serviceclient1/controller/ZookeeperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client-1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client-2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client-3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archives/MySQL/一颗高度为3的B+树能存多少行数据.md" beforeDir="false" afterPath="$PROJECT_DIR$/../archives/MySQL/一颗高度为3的B+树能存多少行数据.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-1/src/main/java/com/hhj/serviceclient1/ServiceClient1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-1/src/main/java/com/hhj/serviceclient1/ServiceClient1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-1/src/main/resources/application.ymal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-1/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-2/src/main/java/com/hhj/serviceclient1/ServiceClient1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-2/src/main/java/com/hhj/serviceclient2/ServiceClient2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-2/src/main/java/com/hhj/serviceclient2/ServiceClient2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-2/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-3/src/main/java/com/hhj/serviceclient3/ServiceClient3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client-3/src/main/java/com/hhj/serviceclient3/ServiceClient3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client-3/target/classes/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21WwDGM2ydTdgdONoNV091qWoLh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.4481132" />
+    <property name="project.structure.side.proportion" value="0.516129" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Documents\git\Back-end-Learning\service-discovery" />
+      <recent name="C:\Documents\git\Back-end-Learning\service-discovery\service-client-3\src\main\resources" />
+      <recent name="C:\Documents\git\Back-end-Learning\service-discovery\service-client-2\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceClient1Application">
+    <configuration name="ServiceClient3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhj.serviceclient3.ServiceClient3Application" />
+      <module name="service-client-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.serviceclient3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bifrost-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.pcauto.bifrost.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-client-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhj.serviceclient1.ServiceClient1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-client-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhj.serviceclient2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhj.serviceclient2.ServiceClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceClient3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-client-3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhj.serviceclient3.ServiceClient3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceClient2Application" />
+        <item itemvalue="Application.ServiceClient3Application" />
+        <item itemvalue="HTTP Request.generated-requests#7" />
+        <item itemvalue="HTTP Request.generated-requests#6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6af5e511-46af-40f6-bbb6-5feaa6033d03" name="Default Changelist" comment="" />
+      <created>1638070032868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638070032868</updated>
+      <workItem from="1638070034909" duration="11946000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化微服务-服务发现项目">
+      <created>1638071438446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638071438446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化微服务-服务发现项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化微服务-服务发现项目" />
+  </component>
+</project>
